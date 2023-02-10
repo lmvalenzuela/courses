@@ -1,3 +1,5 @@
+$enable-negative-margins: true;
+
 .h-10 {
     height: 10% !important;
 }
@@ -6,4 +8,11 @@
 }
 .rightBar {
     background: linear-gradient(to bottom, #DBEAFE 0%, #DBEAFE 20%, #F3F4F6 21%, #F3F4F6 100%);
+}
+
+.mx-n3 {
+    margin-left: -0.75rem;
+}
+.dropdown-toggle::after {
+    margin-left: 8rem;
 }
