@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Requirements
+
+The following requirements should be met before installing or cloning the project:
+- The project requires [node.js](https://nodejs.org/en/download/) and npm
+- Current build was made with the following node and npm versions
+  - Node: v19.4.0
+  - NPM: 9.2.0
+
+## NPM warnings and vulnerabilities
+Through the installation process, `npm` might warn you about deprecated dependencies and vulnerabilities. The tool create to scaffold the current project is the "recommended" by the official React developers [see](https://beta.reactjs.org/learn/start-a-new-react-project#getting-started-with-a-minimal-toolchain).
+For more information [see](https://overreacted.io/npm-audit-broken-by-design/).
+
 ## Installation
 After cloning the current repo download the js dependencies by running:
 
