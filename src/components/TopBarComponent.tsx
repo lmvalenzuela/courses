@@ -4,7 +4,7 @@ import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 const TopBarComponent = (): JSX.Element => {
   return (
-    <div className="row h-10 border pt-3">
+    <div className="row h-10 border m-0 p-0 pt-3">
       <div className="col-3 row">
         <div className="col-2 py-1 text-end">
           <FontAwesomeIcon

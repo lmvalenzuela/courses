@@ -4,7 +4,7 @@ import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 const LeftBarComponent = (): JSX.Element => {
   return (
-    <div className="col-2">
+    <div className="col-2 m-0 p-0">
       <div className="input-group">
         <button className="btn dropdown-toggle text-start" type="button" id="dropdownMenuButton1"
                 data-bs-toggle="dropdown" aria-expanded="false">

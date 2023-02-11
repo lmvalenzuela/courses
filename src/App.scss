@@ -9,4 +9,12 @@ $enable-negative-margins: true;
 .rightBar {
     background: linear-gradient(to bottom, #DBEAFE 0%, #DBEAFE 20%, #F3F4F6 21%, #F3F4F6 100%);
 }
-
+.mt-6 {
+    margin-top: 4rem !important;
+}
+.mirror {
+    -moz-transform:    scaleX(-1); /* Gecko */
+    -o-transform:      scaleX(-1); /* Opera */
+    -webkit-transform: scaleX(-1); /* Webkit */
+    transform:         scaleX(-1); /* Standard */
+}

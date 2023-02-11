@@ -6,9 +6,9 @@ import MainPanelComponent from './components/MainPanelComponent'
 
 const App = (): JSX.Element => {
   return (
-    <div className="container-fluid vh-100 g-0">
+    <div className="container-fluid vh-100 m-0 p-0">
       <TopBarComponent />
-      <div className="row h-90">
+      <div className="row container-fluid m-0 p-0 h-90">
         <LeftBarComponent />
         <MainPanelComponent />
       </div>
