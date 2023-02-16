@@ -18,3 +18,13 @@ $enable-negative-margins: true;
     -webkit-transform: scaleX(-1); /* Webkit */
     transform:         scaleX(-1); /* Standard */
 }
+
+.mt-n4 {
+    margin-top: -1rem !important;
+    margin-left: 3rem !important;
+    margin-right: 1.5em !important;
+}
+
+.displayDestinations {
+    height: 15rem !important;
+}
